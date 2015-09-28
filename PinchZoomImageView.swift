@@ -1,5 +1,5 @@
 //
-//  TLPinchZoomImageView
+//  PinchZoomImageView
 //
 //
 //  Created by Phil Wright on 8/22/15.
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import QuartzCore
 
-class TLPinchZoomImageView: UIImageView, UIGestureRecognizerDelegate {
+class PinchZoomImageView: UIImageView, UIGestureRecognizerDelegate {
     
     // Required init methods
     

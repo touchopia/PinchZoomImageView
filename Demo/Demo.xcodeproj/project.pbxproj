@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EFB85481BB4A9F400953435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB85471BB4A9F400953435 /* AppDelegate.swift */; };
-		5EFB854A1BB4A9F400953435 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB85491BB4A9F400953435 /* ViewController.swift */; };
-		5EFB854D1BB4A9F400953435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB854B1BB4A9F400953435 /* Main.storyboard */; };
-		5EFB854F1BB4A9F400953435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB854E1BB4A9F400953435 /* Assets.xcassets */; };
-		5EFB85521BB4A9F400953435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFB85501BB4A9F400953435 /* LaunchScreen.storyboard */; };
-		5EFB855A1BB4AA1A00953435 /* TLPinchZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFB85591BB4AA1A00953435 /* TLPinchZoomImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		5E3782EF1BB8AEF00031555C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3782ED1BB8AEF00031555C /* Main.storyboard */; };
+		5E3782F11BB8AEF00031555C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3782F01BB8AEF00031555C /* Assets.xcassets */; };
+		5E3782F41BB8AEF00031555C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3782F21BB8AEF00031555C /* LaunchScreen.storyboard */; };
+		5E3782FE1BB8AF210031555C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3782FB1BB8AF210031555C /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		5E3782FF1BB8AF210031555C /* PinchZoomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3782FC1BB8AF210031555C /* PinchZoomImageView.swift */; settings = {ASSET_TAGS = (); }; };
+		5E3783001BB8AF210031555C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3782FD1BB8AF210031555C /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EFB85441BB4A9F400953435 /* TLPinchImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLPinchImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EFB85471BB4A9F400953435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EFB85491BB4A9F400953435 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5EFB854C1BB4A9F400953435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5EFB854E1BB4A9F400953435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5EFB85511BB4A9F400953435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5EFB85531BB4A9F400953435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EFB85591BB4AA1A00953435 /* TLPinchZoomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLPinchZoomImageView.swift; sourceTree = "<group>"; };
+		5E3782E61BB8AEF00031555C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3782EE1BB8AEF00031555C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E3782F01BB8AEF00031555C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E3782F31BB8AEF00031555C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E3782F51BB8AEF00031555C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3782FB1BB8AF210031555C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E3782FC1BB8AF210031555C /* PinchZoomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchZoomImageView.swift; sourceTree = "<group>"; };
+		5E3782FD1BB8AF210031555C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5EFB85411BB4A9F400953435 /* Frameworks */ = {
+		5E3782E31BB8AEF00031555C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5EFB853B1BB4A9F400953435 = {
+		5E3782DD1BB8AEF00031555C = {
 			isa = PBXGroup;
 			children = (
-				5EFB85461BB4A9F400953435 /* TLPinchImageExample */,
-				5EFB85451BB4A9F400953435 /* Products */,
+				5E3782E81BB8AEF00031555C /* Demo */,
+				5E3782E71BB8AEF00031555C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5EFB85451BB4A9F400953435 /* Products */ = {
+		5E3782E71BB8AEF00031555C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EFB85441BB4A9F400953435 /* TLPinchImageExample.app */,
+				5E3782E61BB8AEF00031555C /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EFB85461BB4A9F400953435 /* TLPinchImageExample */ = {
+		5E3782E81BB8AEF00031555C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				5EFB85471BB4A9F400953435 /* AppDelegate.swift */,
-				5EFB85491BB4A9F400953435 /* ViewController.swift */,
-				5EFB85591BB4AA1A00953435 /* TLPinchZoomImageView.swift */,
-				5EFB854B1BB4A9F400953435 /* Main.storyboard */,
-				5EFB854E1BB4A9F400953435 /* Assets.xcassets */,
-				5EFB85501BB4A9F400953435 /* LaunchScreen.storyboard */,
-				5EFB85531BB4A9F400953435 /* Info.plist */,
+				5E3782FB1BB8AF210031555C /* AppDelegate.swift */,
+				5E3782FD1BB8AF210031555C /* ViewController.swift */,
+				5E3782FC1BB8AF210031555C /* PinchZoomImageView.swift */,
+				5E3782ED1BB8AEF00031555C /* Main.storyboard */,
+				5E3782F01BB8AEF00031555C /* Assets.xcassets */,
+				5E3782F21BB8AEF00031555C /* LaunchScreen.storyboard */,
+				5E3782F51BB8AEF00031555C /* Info.plist */,
 			);
-			path = TLPinchImageExample;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EFB85431BB4A9F400953435 /* TLPinchImageExample */ = {
+		5E3782E51BB8AEF00031555C /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EFB85561BB4A9F400953435 /* Build configuration list for PBXNativeTarget "TLPinchImageExample" */;
+			buildConfigurationList = 5E3782F81BB8AEF00031555C /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				5EFB85401BB4A9F400953435 /* Sources */,
-				5EFB85411BB4A9F400953435 /* Frameworks */,
-				5EFB85421BB4A9F400953435 /* Resources */,
+				5E3782E21BB8AEF00031555C /* Sources */,
+				5E3782E31BB8AEF00031555C /* Frameworks */,
+				5E3782E41BB8AEF00031555C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TLPinchImageExample;
-			productName = TLPinchImageExample;
-			productReference = 5EFB85441BB4A9F400953435 /* TLPinchImageExample.app */;
+			name = Demo;
+			productName = Demo;
+			productReference = 5E3782E61BB8AEF00031555C /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5EFB853C1BB4A9F400953435 /* Project object */ = {
+		5E3782DE1BB8AEF00031555C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Touchopia, LLC";
 				TargetAttributes = {
-					5EFB85431BB4A9F400953435 = {
+					5E3782E51BB8AEF00031555C = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 5EFB853F1BB4A9F400953435 /* Build configuration list for PBXProject "TLPinchImageExample" */;
+			buildConfigurationList = 5E3782E11BB8AEF00031555C /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 5EFB853B1BB4A9F400953435;
-			productRefGroup = 5EFB85451BB4A9F400953435 /* Products */;
+			mainGroup = 5E3782DD1BB8AEF00031555C;
+			productRefGroup = 5E3782E71BB8AEF00031555C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EFB85431BB4A9F400953435 /* TLPinchImageExample */,
+				5E3782E51BB8AEF00031555C /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5EFB85421BB4A9F400953435 /* Resources */ = {
+		5E3782E41BB8AEF00031555C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFB85521BB4A9F400953435 /* LaunchScreen.storyboard in Resources */,
-				5EFB854F1BB4A9F400953435 /* Assets.xcassets in Resources */,
-				5EFB854D1BB4A9F400953435 /* Main.storyboard in Resources */,
+				5E3782F41BB8AEF00031555C /* LaunchScreen.storyboard in Resources */,
+				5E3782F11BB8AEF00031555C /* Assets.xcassets in Resources */,
+				5E3782EF1BB8AEF00031555C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5EFB85401BB4A9F400953435 /* Sources */ = {
+		5E3782E21BB8AEF00031555C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EFB855A1BB4AA1A00953435 /* TLPinchZoomImageView.swift in Sources */,
-				5EFB854A1BB4A9F400953435 /* ViewController.swift in Sources */,
-				5EFB85481BB4A9F400953435 /* AppDelegate.swift in Sources */,
+				5E3783001BB8AF210031555C /* ViewController.swift in Sources */,
+				5E3782FF1BB8AF210031555C /* PinchZoomImageView.swift in Sources */,
+				5E3782FE1BB8AF210031555C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5EFB854B1BB4A9F400953435 /* Main.storyboard */ = {
+		5E3782ED1BB8AEF00031555C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5EFB854C1BB4A9F400953435 /* Base */,
+				5E3782EE1BB8AEF00031555C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5EFB85501BB4A9F400953435 /* LaunchScreen.storyboard */ = {
+		5E3782F21BB8AEF00031555C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5EFB85511BB4A9F400953435 /* Base */,
+				5E3782F31BB8AEF00031555C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5EFB85541BB4A9F400953435 /* Debug */ = {
+		5E3782F61BB8AEF00031555C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,7 +202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -209,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		5EFB85551BB4A9F400953435 /* Release */ = {
+		5E3782F71BB8AEF00031555C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,31 +240,34 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5EFB85571BB4A9F400953435 /* Debug */ = {
+		5E3782F91BB8AEF00031555C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TLPinchImageExample/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchopia.TLPinchImageExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchopia.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5EFB85581BB4A9F400953435 /* Release */ = {
+		5E3782FA1BB8AEF00031555C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TLPinchImageExample/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.touchopia.TLPinchImageExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.touchopia.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -271,24 +275,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EFB853F1BB4A9F400953435 /* Build configuration list for PBXProject "TLPinchImageExample" */ = {
+		5E3782E11BB8AEF00031555C /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EFB85541BB4A9F400953435 /* Debug */,
-				5EFB85551BB4A9F400953435 /* Release */,
+				5E3782F61BB8AEF00031555C /* Debug */,
+				5E3782F71BB8AEF00031555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EFB85561BB4A9F400953435 /* Build configuration list for PBXNativeTarget "TLPinchImageExample" */ = {
+		5E3782F81BB8AEF00031555C /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EFB85571BB4A9F400953435 /* Debug */,
-				5EFB85581BB4A9F400953435 /* Release */,
+				5E3782F91BB8AEF00031555C /* Debug */,
+				5E3782FA1BB8AEF00031555C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5EFB853C1BB4A9F400953435 /* Project object */;
+	rootObject = 5E3782DE1BB8AEF00031555C /* Project object */;
 }

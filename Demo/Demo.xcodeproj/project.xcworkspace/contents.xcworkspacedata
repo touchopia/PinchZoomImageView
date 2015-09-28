@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TLPinchImageExample.xcodeproj">
+      location = "self:Demo.xcodeproj">
    </FileRef>
 </Workspace>
