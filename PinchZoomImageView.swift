@@ -6,7 +6,6 @@
 //  Copyright © 2015 Touchopia, LLC. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import QuartzCore
 
